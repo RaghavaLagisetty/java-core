@@ -7,7 +7,7 @@ class Product1 {
     private String productId;
     private String productName;
 
-    public Product(String productId, String productName) {
+    public Product1(String productId, String productName) {
         this.productId = productId;
         this.productName = productName;
     }
