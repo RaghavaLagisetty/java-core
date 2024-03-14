@@ -47,13 +47,16 @@ public class D08P04 {
      
         String input = scanner.nextLine();
         scanner.close();
-
+        if (input.equals("[]")) {
+            System.out.println("Empty");
+            return;
+        }
         String[] elements = input.split(" ");
         for (String element : elements) {
             queue.enqueue(element);
         }
 
-        if (input.equals("[]")) {
+        if (queue.isEmpty()) {
             System.out.println("Empty");
             return;
         }else {
