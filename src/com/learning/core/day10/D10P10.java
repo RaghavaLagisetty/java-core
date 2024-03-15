@@ -26,6 +26,7 @@ public class D10P10 {
     @Test(timeout = 2)
     public void testPassword() {
         userProfile.validatePassword("Raghava1");
+	//userProfile.validatePassword("Raghava12");//wrong password
     }
 
 }
