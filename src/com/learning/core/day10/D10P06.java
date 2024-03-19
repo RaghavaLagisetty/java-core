@@ -4,7 +4,7 @@ import java.io.*;
 
 public class D10P06 {
     public static void main(String[] args) {
-        String combinedNotes = combineNotes("DavidEnglish.txt", "DavidScience.txt", "DavidComputers.txt");
+        String combinedNotes = combineNotes("DavidEnglish.txt", "DavidScience.txt", "DavidComputer.txt");
         System.out.println(combinedNotes);
         writeToFile(combinedNotes, "DavidNotes.txt");
     }
